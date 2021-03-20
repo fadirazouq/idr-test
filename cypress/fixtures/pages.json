@@ -1,0 +1,43 @@
+{
+  "signUpPage": {
+    "invalidEmail": "this.is_notaValidEmail.com",
+    "validFirstName": "Testuser",
+    "invalidFirstName": "this is an invalid first name  yes its more than 20 char",
+    "validLastName": "Testuser",
+    "invalidLastName": "this is an invalid last name  yes its more than 20 char",
+    "validPassword": "Abc123123",
+    "invalidPassword": "123",
+    "verificationCode": "test-code"
+  },
+  "myInformation": {
+    "accountType": "Individual",
+    "gender": "FEMALE",
+    "middleName": "MidName"
+  },
+  "shared": {
+    "countryOfResidence": "Jordan"
+  },
+  "additionalInfo": {
+    "streetNumber1": "iAmStreet1",
+    "streetNumber2": "iAmStreet2",
+    "cityName": "someCityName",
+    "regionName": "someRegionName",
+    "zipCode": "11223",
+    "validSSN": "13-5711458",
+    "dataOfBirth": "11041990",
+    "phoneNumber": "(555) 555-1234"
+  },
+  "noticeAddress": {
+    "noticeAddress": "United States Of America",
+    "nStreetNumber1": "iAmStreet1",
+    "nStreetNumber2": "iAmStreet2",
+    "nCityName": "someCityName",
+    "nRegionName": "Massachusetts",
+    "nZipCode": "00123"
+  },
+  "uploadDocuments":{
+    "documentType":"passport",
+    "ExpiresOnDatePicker":"11042030",
+    "issuingCountry": "United States Of America"
+  }
+}

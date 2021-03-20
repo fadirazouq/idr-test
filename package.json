@@ -1,0 +1,18 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "a",
+  "scripts": {
+    "cypress:test": "./node_modules/.bin/cypress open",
+    "cypress:test-headless": "cypress run --browser chrome --headless",
+    "cypress:gui": "cypress run --browser chrome --no-exit"
+  },
+  "author": "Fadi Razouk",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.3"
+  }
+}
