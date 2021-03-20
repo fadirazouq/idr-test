@@ -1,4 +1,4 @@
-# Github-idr-test
+# idr-test
 Is a stand-alone repo for running integration tests using cypress test runner.
 # Why cypress 
 Cypress is an open source, next generation front end testing tool built for the modern web, here are some points on why cypress is my go-to
