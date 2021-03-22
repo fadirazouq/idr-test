@@ -54,4 +54,4 @@ A step by step series of examples that tell you how to run tests with a gui.
 
 ####  So you don`t even want to run to code ? that is covered too:+1:
 - You can take a look at the latest travisCI build as it is triggered each time a new change have been made, or on each pull request as a part of CI/CD cycle it runes all the tests and shows you a summary of what is going on.
-TBD(travisCI wont work as this repo is privet)
+https://travis-ci.com/github/fadirazouq/idr-test/builds/220805430
