@@ -1,7 +1,7 @@
 {
-  "name": "a",
+  "name": "Railblock Sign-up test",
   "version": "1.0.0",
-  "description": "a",
+  "description": "testing the full cycle of signing up a new user",
   "scripts": {
     "cypress:test": "./node_modules/.bin/cypress open",
     "cypress:test-headless": "cypress run --browser chrome --headless",

@@ -40,7 +40,7 @@ describe('Checking the functionality of creating a new Individual account', () =
     cy.get(signUpPage.EmailConfirmButton).should('be.visible');
   });
 
-  it.only('Filling the sign-up form with valid data to finish the sign-up and the onboarding proses, @ID: 05', () => {
+  it('Filling the sign-up form with valid data to finish the sign-up and the onboarding proses, @ID: 05', () => {
     cy.visit('/auth/signup?type=Individual');
     utils.fillSignUpPage(pages.signUpPage.validData, true);
     cy.contains(signUpPage.termsAndConditionsCheckBox).click();
