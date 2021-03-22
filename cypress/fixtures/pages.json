@@ -1,27 +1,31 @@
 {
   "signUpPage": {
-    "invalidEmail": "this.is_notaValidEmail.com",
-    "validFirstName": "Testuser",
-    "invalidFirstName": "this is an invalid first name  yes its more than 20 char",
-    "validLastName": "Testuser",
-    "invalidLastName": "this is an invalid last name  yes its more than 20 char",
-    "validPassword": "Abc123123",
-    "invalidPassword": "123",
-    "verificationCode": "test-code"
+    "validData": {
+      "firstName": "Testuser",
+      "lastName": "Testuser",
+      "password": "Abc123123",
+      "countryOfResidence": "Jordan",
+      "verificationCode": "test-code"
+    },
+    "inValidData": {
+      "email": "this.is_notaValidEmail.com",
+      "firstName": "this is an invalid first name  yes its more than 20 char",
+      "lastName": "this is an invalid last name  yes its more than 20 char",
+      "countryOfResidence": "someInvalidCountry",
+      "password": "123"
+    }
   },
   "myInformation": {
     "accountType": "Individual",
     "gender": "FEMALE",
     "middleName": "MidName"
   },
-  "shared": {
-    "countryOfResidence": "Jordan"
-  },
   "additionalInfo": {
     "streetNumber1": "iAmStreet1",
     "streetNumber2": "iAmStreet2",
     "cityName": "someCityName",
-    "regionName": "someRegionName",
+    "countryOfResidence": "Jordan",
+    "regionName": "Massachusetts",
     "zipCode": "11223",
     "validSSN": "13-5711458",
     "dataOfBirth": "11041990",
@@ -39,5 +43,9 @@
     "documentType":"passport",
     "ExpiresOnDatePicker":"11042030",
     "issuingCountry": "United States Of America"
+  },
+  "dashboard":{
+    "custodian":"wells fargo",
+    "randomNumber":"123123123"
   }
 }
