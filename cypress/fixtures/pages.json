@@ -11,7 +11,7 @@
       "email": "this.is_notaValidEmail.com",
       "firstName": "this is an invalid first name  yes its more than 20 char",
       "lastName": "this is an invalid last name  yes its more than 20 char",
-      "countryOfResidence": "someInvalidCountry",
+      "countryOfResidence": "Jordan",
       "password": "123"
     }
   },
@@ -39,13 +39,13 @@
     "nRegionName": "Massachusetts",
     "nZipCode": "00123"
   },
-  "uploadDocuments":{
-    "documentType":"passport",
-    "ExpiresOnDatePicker":"11042030",
+  "uploadDocuments": {
+    "documentType": "passport",
+    "ExpiresOnDatePicker": "11042030",
     "issuingCountry": "United States Of America"
   },
-  "dashboard":{
-    "custodian":"wells fargo",
-    "randomNumber":"123123123"
+  "dashboard": {
+    "custodian": "wells fargo",
+    "randomNumber": "123123123"
   }
 }
