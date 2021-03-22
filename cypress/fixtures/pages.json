@@ -3,7 +3,7 @@
     "validData": {
       "firstName": "Testuser",
       "lastName": "Testuser",
-      "password": "Abcd123123",
+      "password": "Abc123123",
       "countryOfResidence": "Jordan",
       "verificationCode": "test-code"
     },
