@@ -65,3 +65,25 @@ describe('Checking the functionality of creating a new Individual account', () =
     cy.url().should('eq', 'https://idr-dev.realblocks.com/dashboard');
   });
 });
+
+describe.only('signing-up using MailSlurp', () => {
+  it('can generate a new email address and sign up', () => {
+    cy.createInbox().then((inbox) => {
+      cy.visit('/auth/signup?type=Individual');
+      cy.typeKeys(signUpPage.firstNameInput, 'some1stName');
+      cy.typeKeys(signUpPage.lastNameInput, 'someLastName');
+      cy.typeKeys(signUpPage.emailInput, inbox.emailAddress);
+      cy.typeKeys(signUpPage.passwordInput, 'ThisIsaPassword123');
+      cy.get(signUpPage.selectCountryDropdown).click();
+      cy.contains('Jordan').click();
+      cy.contains(signUpPage.termsAndConditionsCheckBox).click();
+      cy.get(signUpPage.CreateAccountButton).click();
+      cy.waitForLatestEmail(inbox.id).then((email) => {
+        const code = /\d[0-9]{5}/.exec(email.body)[0];
+        cy.get(signUpPage.EmailCodeInput).type(code);
+        cy.get(signUpPage.EmailConfirmButton).click();
+        cy.url().should('eq', 'https://idr-dev.realblocks.com/onboard');
+      });
+    });
+  });
+});

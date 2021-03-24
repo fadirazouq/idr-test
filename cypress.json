@@ -1,6 +1,7 @@
 {
     "baseUrl":"https://idr-dev.realblocks.com/",
-    "defaultCommandTimeout": 20000,
+    "defaultCommandTimeout": 30000,
+    "requestTimeout": 30000,
     "fixturesFolder": "cypress/fixtures",
     "integrationFolder": "cypress/integration",
     "pluginsFile": "cypress/plugins",
